@@ -1,7 +1,7 @@
 /** Database setup for BizTime. */
 
 const { Client } = require("pg");
-const password = require('./secrets');
+const password = require('./secrets'); // importing db password from file excluded in git
 
 let DB_URI;
 
