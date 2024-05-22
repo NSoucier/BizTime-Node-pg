@@ -1,3 +1,4 @@
+-- \c biztime_test
 \c biztime
 
 DROP TABLE IF EXISTS invoices;
